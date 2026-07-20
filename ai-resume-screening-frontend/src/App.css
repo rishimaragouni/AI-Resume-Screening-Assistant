@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 70%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  color: #0d3b66;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0d3b66;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  resize: vertical;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #0d6efd;
+}
+
+button {
+  background-color: #0d3b66;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #145da0;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+/* Analysis Result Cards */
+
+.result-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-left: 6px solid #0d3b66;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 20px 0;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.result-card h3 {
+  margin-top: 0;
+  color: #0d3b66;
+}
+
+.result-card p {
+  margin: 8px 0;
+}
+
+.result-card ul,
+.result-card ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.score {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+    padding: 20px;
+  }
+
+  textarea {
+    width: 95%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+.score{
+    font-size:60px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.score-high{
+    color:#16a34a;
+}
+
+.score-medium{
+    color:#f59e0b;
+}
+
+.score-low{
+    color:#dc2626;
+}
+.download-btn {
+    background: #16a34a;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #15803d;
+}
